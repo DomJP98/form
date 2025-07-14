@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(36, 172, 242);
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 350px;
+    padding: 20px;
+    background-color: rgb(206, 226, 247);
+    border-radius: 5px;
+}
+.container h1{
+    padding-top:2rem;
+    margin-top: -1rem;
+    padding-left: 120px;
+    color: blue;
+    font-family: Arial;
+}
+
+.container label{
+    display: block;
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+::placeholder{
+    font-size: 14px;
+    
+}
+input{
+    
+    padding-left: 10px;
+    background: #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid blue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 20rem;
+    height: 1.6rem;
+    font-size: medium;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px
+
+}
+
+#remember-me{
+    display: flex;
+    margin-right: 250px; 
+    width: 200px; 
+}
+
+#remember-me label{
+    flex-shrink: 0;
+    padding: 3px 2px 8px ;
+    
+}
+
+button{
+    border: none;
+    width: 20.8rem;
+    height: 2rem;
+    background-color:blue;
+    cursor: pointer;
+    border-top: none;
+}
+
+button a{
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+#have-account{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 2px;    
+}
+
+#have-account label{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#have-account a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#have-account a:hover{
+text-decoration: underline;
+
+}
